@@ -47,6 +47,7 @@ img{
     width: 290px;
     height: 300px;
     cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
   
 }
 
