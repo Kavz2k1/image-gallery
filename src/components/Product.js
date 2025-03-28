@@ -8,10 +8,14 @@ import seven from "../assets/images/14.jpeg"
 import eight from "../assets/images/8.jpeg"
 // import nine from "../assets/images/9.jpeg"
 // import ten from "../assets/images/10.jpeg"
+import React, { useEffect } from 'react';
 
 
 function Product()
 {
+    useEffect(() => {
+        document.title = "Image Gallery"; // Title Change
+      }, []);
     
   return(
     <div class = "body">
