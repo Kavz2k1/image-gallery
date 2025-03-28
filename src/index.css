@@ -52,10 +52,14 @@ img{
 
 .box:hover{
 
-    background-color: rgb(218, 214, 214);
-     border: solid 2px;
  
 }
+.box img:hover {
+    transform: scale(1.05);
+    transition: 1s;
+  }
+
+
 
 
 
