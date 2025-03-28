@@ -13,12 +13,12 @@
 .head{
     
     text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
   
-
 }
 
 .head hr{
-    border: solid 2px;
+    border: solid 1px;
 }
 .products{
     display: flex;

@@ -14,13 +14,13 @@ import React, { useEffect } from 'react';
 function Product()
 {
     useEffect(() => {
-        document.title = "Image Gallery"; // Title Change
+        document.title = "Coffee-teria"; // Title Change
       }, []);
     
   return(
     <div class = "body">
     <div class = "head">
-    <h1>Image-gallery</h1>
+    <h1>Coffee-teria</h1>
     <hr ></hr>
     </div>
        
